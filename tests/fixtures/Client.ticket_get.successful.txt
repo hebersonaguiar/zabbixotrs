@@ -1,0 +1,49 @@
+>>> client.response_type
+'Ticket'
+
+>>> client.response.status_code
+200
+
+>>> client.response.json()
+{u'Ticket': [{u'Age': 24040576,
+   u'ArchiveFlag': u'n',
+   u'ChangeBy': u'1',
+   u'Changed': u'2016-04-13 20:41:19',
+   u'CreateBy': u'1',
+   u'CreateTimeUnix': u'1436949030',
+   u'Created': u'2015-07-15 08:30:30',
+   u'CustomerID': None,
+   u'CustomerUserID': None,
+   u'DynamicField': [{u'Name': u'ProcessManagementActivityID', u'Value': None},
+    {u'Name': u'ProcessManagementProcessID', u'Value': None},
+    {u'Name': u'firstname', u'Value': None},
+    {u'Name': u'lastname', u'Value': None}],
+   u'EscalationResponseTime': u'0',
+   u'EscalationSolutionTime': u'0',
+   u'EscalationTime': u'0',
+   u'EscalationUpdateTime': u'0',
+   u'GroupID': u'1',
+   u'Lock': u'unlock',
+   u'LockID': u'1',
+   u'Owner': u'root@localhost',
+   u'OwnerID': u'1',
+   u'Priority': u'3 normal',
+   u'PriorityID': u'3',
+   u'Queue': u'Raw',
+   u'QueueID': u'2',
+   u'RealTillTimeNotUsed': u'0',
+   u'Responsible': u'root@localhost',
+   u'ResponsibleID': u'1',
+   u'SLAID': u'',
+   u'ServiceID': u'',
+   u'State': u'open',
+   u'StateID': u'4',
+   u'StateType': u'open',
+   u'TicketID': u'1',
+   u'TicketNumber': u'2015071510123456',
+   u'Title': u'Welcome to OTRS!',
+   u'Type': u'Unclassified',
+   u'TypeID': 1,
+   u'UnlockTimeout': u'0',
+   u'UntilTime': 0}]}
+

@@ -1,0 +1,8 @@
+>>> client.response_type
+'TicketID'
+
+>>> client.response.status_code
+200
+
+>>> client.response.json()
+{}

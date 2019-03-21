@@ -1,0 +1,8 @@
+>>> client.response_type
+'SessionID'
+
+>>> client.response.status_code
+200
+
+>>> client.response.json()
+{u'SessionID': u'tMtTFDg1PxCX51dWnjue4W5oQtNsFd0k'}

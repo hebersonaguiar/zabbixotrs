@@ -1,0 +1,6 @@
+include CHANGELOG.rst
+include README.rst
+include LICENSE
+include webservices_templates/GenericFAQConnectorREST.yml
+include webservices_templates/GenericLinkConnectorREST.yml
+include webservices_templates/GenericTicketConnectorREST.yml
