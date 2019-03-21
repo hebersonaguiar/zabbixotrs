@@ -3,7 +3,7 @@
 """
 Created on Mon Out 22 10:57:32 2018
 
-@author: Heberson Aguiar <heberson.aguiar@hepta.com.br>
+@author: Heberson Aguiar <hebersonaguiar@gmail.com>
 """
 
 from zabbix_api import ZabbixAPI
