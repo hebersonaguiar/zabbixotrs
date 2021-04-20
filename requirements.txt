@@ -36,7 +36,7 @@ pbr==4.3.0
 pep8==1.7.1
 pluggy==0.7.1
 pockets==0.7.2
-py==1.6.0
+py==1.10.0
 pycallgraph==1.0.1
 pycodestyle==2.4.0
 pyflakes==2.0.0
